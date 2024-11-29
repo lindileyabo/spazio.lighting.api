@@ -1,0 +1,26 @@
+{
+  "name": "spazio.lighting.api",
+  "version": "1.0.0",
+  "description": "Spazio Lighting Web API",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /dist/server.js -w "
+  },
+  "author": "Lindile Yabo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.0",
+    "node-ts": "^6.1.3"
+  }
+}
