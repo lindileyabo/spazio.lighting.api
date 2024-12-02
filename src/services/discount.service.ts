@@ -1,9 +1,23 @@
-import { Document } from "mongoose";
+import { IDiscountService } from "../types/IDiscountService";
 
-
-export interface IShop extends Document {
-    shopName: string;
-    accessToken: string;
-    
-  }
+export class DiscountService implements IDiscountService {
+public getDiscounts(){
   
+}
+public getDiscount(){
+
+}
+
+public createDiscount(){
+
+}
+
+public updateDiscount(){
+
+}
+
+public deleteDiscount(){
+
+}
+
+}

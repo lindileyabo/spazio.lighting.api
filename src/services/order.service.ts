@@ -1,8 +1,19 @@
-import { Document } from "mongoose";
-
-
-export interface IShop extends Document {
-    shopName: string;
-    accessToken: string;
+import { IOrderService } from "../types";
+class OrderService implements IOrderService{
+  public getOrders(){
+    
   }
+  public getOrder(){
+
+  }
+  public createOrder(){
+
+  }
+  public updateOrder(){
+
+  }
+  public deleteOrder(){
+
+  }
+}
   

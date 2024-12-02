@@ -13,9 +13,9 @@ export const createProduct = async (req: Request, res: Response): Promise<void> 
     
   };
 
-export const Updateproduct = async (req: Request, res: Response): Promise<void> => {
+export const updateProduct = async (req: Request, res: Response): Promise<void> => {
     
   };
-export const DeleteController = async (req: Request, res: Response): Promise<void> => {
+export const deleteProduct = async (req: Request, res: Response): Promise<void> => {
     
   };

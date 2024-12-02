@@ -1,8 +1,20 @@
-import { Document } from "mongoose";
+import { ICustomerService } from "../types";
 
-
-export interface ICustomer extends Document {
-    shopName: string;
-    accessToken: string;
-  }
+export class CustomerService implements ICustomerService{
   
+  public getCustomers(){
+
+  }
+  public getCustomer(){
+
+  }
+  public createCustomer(){
+
+  }
+  public updateCustomers(){
+
+  }
+  public deleteCustomer(){
+
+  }
+}
