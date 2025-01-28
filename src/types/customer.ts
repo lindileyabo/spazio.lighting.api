@@ -1,7 +1,7 @@
 import { Document } from "mongoose";
 
 
-export interface IShop extends Document {
+export interface ICustomer extends Document {
     shopName: string;
     accessToken: string;
   }

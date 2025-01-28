@@ -1,8 +1,20 @@
-import { Document } from "mongoose";
+import { IContentService } from "../types";
 
 
-export interface IShop extends Document {
-    shopName: string;
-    accessToken: string;
+export class ContentService implements IContentService{
+  public getContents(){
+    
   }
-  
+  public getContent(){
+
+  }
+  public createContent(){
+
+  }
+  public updateContent(){
+
+  }
+  public deleteContents(){
+    
+  }
+}

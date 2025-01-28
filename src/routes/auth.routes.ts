@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import { installApp } from '../controllers/auth.controller';
+import { authController } from '../controllers/';
 
 const router = Router();
 
-router.get('/install', installApp);
+router.get("/auth/callback", authController);
 
 export default router;
